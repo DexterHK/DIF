@@ -9,7 +9,7 @@ fn main() {
 
     // Call the multiply function and store the result
     let result=multiply(num1,num2) ;
-
+ 
     // Print the result
     println!("Result of {} * {} = {}", num1, num2, result);
 }
