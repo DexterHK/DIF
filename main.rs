@@ -11,5 +11,5 @@ fn main() {
     let result=multiply(num1,num2) ;
  
     // Print the result
-    println!("Result of {} * {} = {}", num1, num2, result);
+    println!("Result of { } * {} = {}", num1, num2, result);
 }
