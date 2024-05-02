@@ -16,6 +16,14 @@ To install our Changelog generator.
 ```
 pip install Commitizen pre-commit
 ```
+## Installing Pre-commit hook
+pre-commit install # install pre-commit in new project
+```
+pre-commit install # install pre-commit in new project
+pre-commit run --all-files # one-off check all files
+```
+
+
 Test the following tools to see if they work manually before having them executed in a pre-commit hook:
 
 * Check Rust code for errors (comes with RustUp no need to install manually)
@@ -42,12 +50,6 @@ cz bump # bump SemVer version
 cz changelog # generate CHANGELOG.md
 ```
 
-## Installing Pre-commit hook
-pre-commit install # install pre-commit in new project
-```
-pre-commit install # install pre-commit in new project
-pre-commit run --all-files # one-off check all files
-```
 
 The following File is already pushed, so you don't have to, just pull the github repo:
 
